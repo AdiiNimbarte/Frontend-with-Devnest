@@ -1,0 +1,30 @@
+.form{
+    margin: auto;
+    width: 500px;
+    padding: 5%;
+    background-color: hsl(88, 100%, 81%);
+    border:groove 20px aqua;
+}
+div{
+    padding: 5%;
+}
+input{
+    width: 10%;
+}
+#add,#sub,#divide,#multiply{
+    border: solid 1px rgb(241, 255, 47);
+    border-radius: 50%;
+    width: 20%;
+    padding: 10px;
+    margin-left: 4px;
+    }
+input:hover{
+    background-color: rgb(250, 255, 209);
+}
+.btn:hover{
+    background-color: rgb(231, 19, 47);
+    color: white;
+}
+.btn::after{
+    background-color: rgb(6, 250, 26);
+}

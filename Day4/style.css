@@ -1,6 +1,8 @@
 #main{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    margin: auto;
 }
 #outcircle{
     margin: 0 auto;
@@ -13,16 +15,17 @@
     position: relative;
     box-shadow: 1px 1px 15px lavender;
 }
-#incircle{
-    background-color:white;
+#incircle {
+    background-color: white;
     margin: 10%;
     height: 200px;
     width: 200px;
     border: 2px solid whitesmoke;
     border-radius: 100%;
-    position: absolute;
-    top: 1px;
-    box-shadow: inset 1px 1px 15px rgba(201, 180, 180, 0.658);
+    position: relative;
+    bottom: 255px;
+    left: 25px;
+    box-shadow: inset 1px 1px 15px rgb(83 38 38 / 66%);
 }
 .line{
 background-color: black;
