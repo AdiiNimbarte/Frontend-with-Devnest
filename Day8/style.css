@@ -1,0 +1,22 @@
+*{ background-color: black;
+
+}
+.a{
+width: 18px;
+height: 18px;
+background-color: red;
+border: solid 1px white;
+}
+#obj{
+  display: flex;
+  flex-wrap:wrap ;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.b{
+  width: 18px;
+height: 18px;
+background-color:white;
+border: solid 1px white;
+}
