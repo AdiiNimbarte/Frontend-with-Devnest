@@ -9,6 +9,5 @@ for( let i=0;i<20;i++)
 const clk=document.querySelectorAll(".a");
 for(let k=0;k<400;k++)
 {
-  //console.log(clk[k].classList);
   clk[k].addEventListener("click",()=>{clk[k].classList.toggle('b')});
 }

@@ -1,0 +1,33 @@
+.seat{
+    width: 90px;
+    height: 90px;
+    border: solid rgb(255, 254, 254) 1px;
+    background-color: rgba(253, 2, 2, 0.856);
+}
+#hall{
+    display: flex;
+    flex-wrap:wrap ;
+    width: 600px;
+    height: 600px;
+    margin:auto;
+}
+.booked{
+    width: 90px;
+    height: 90px;
+    border: solid rgb(81, 255, 0) 1px;
+    background-color: rgb(24, 153, 19);
+
+}
+#occupied{
+    width: 100px;
+    color: blue;
+    background-color: greenyellow;
+    margin: auto;
+}
+#remaining{
+    width: 100px;
+    color: blue;
+    background-color: rgb(14, 18, 212);
+   color: white;
+   margin: auto;
+}
