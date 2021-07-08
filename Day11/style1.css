@@ -1,0 +1,64 @@
+html{
+    background-color: rgb(144, 255, 236);
+    font-size: 10px;
+}
+*{margin: auto;
+position:relative;
+border-radius: 2rem;
+text-align: center;
+box-sizing: border-box;}
+#quiz{
+    top:10rem;
+    width:100rem;
+    height:90rem;
+    background-color: rgb(116, 0, 224);
+    padding: 5rem;
+    font-size:4rem;
+}
+
+#question{
+    width:90rem;
+    height:12rem;
+    background-color: rgb(255, 138, 239);
+    padding:3rem;
+}
+.btn{
+    width:80rem;
+}
+.option{
+    top:5rem;
+    text-align: left;
+    border:solid 0.1rem rgb(12, 35, 243);
+    width:80rem;
+    height:8rem;
+    margin:2rem;
+    padding:1rem 2rem;
+}
+.option:hover{
+    color: rgb(46, 4, 73);
+    cursor: pointer;
+    background-color: rgb(92, 245, 194);
+}
+.correct{
+    color:rgb(9, 119, 45);
+    
+}
+.wrong{
+    color: rgb(250, 8, 8);
+}
+
+span
+{
+
+    font-size: 4rem;
+}
+#result,#score{
+    color: white;
+}
+
+
+
+#progress {
+    color: #eef108;
+    font-size: 2rem;
+}
