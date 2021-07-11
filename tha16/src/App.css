@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+.elements {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  margin-top: 30vh;
+  text-align: center;
+}
+
+.meme-logo {
+  box-sizing: border-box;
+  height: 20vmin;
+  border: solid 0.4rem rgb(255, 252, 252);
+  box-shadow: 1rem 1rem rgb(243, 195, 195);
+  border-radius: 1rem;
+}
+
+.meme-header {
+  margin: auto;
+  font-size: 30px;
+  box-sizing: border-box;
+  height: 40vh;
+  width: 40vmin;
+  background-color: rgb(241, 233, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: rgb(17, 16, 16);
+  border: rgb(138, 135, 135) solid 1rem;
+  padding: 2rem;
+}
+.chessboard {
+  border: 2rem solid black;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 50vmin;
+  height: 50vh;
+  margin: 0.5rem;
+}
+.chessboard :nth-child(odd) {
+  background-color: white;
+}
+.chessboard :nth-child(even) {
+  background-color: black;
+}
+.Card {
+  width: 5rem;
+  height: 5rem;
+  border: solid 1rem black;
+  background-color: blueviolet;
+}
