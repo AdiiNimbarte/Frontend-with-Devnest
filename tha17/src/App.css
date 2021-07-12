@@ -1,0 +1,14 @@
+.App {
+margin: auto;
+box-sizing: border-box;
+}
+
+
+.App-header {
+  width: 100vw;
+  min-height: 10vh; 
+  font-size: calc(10px + 2vmin);
+  color: rgb(10, 10, 10);
+  background-color: rgb(248, 242, 242);
+}
+
