@@ -1,0 +1,13 @@
+.body{
+    margin:auto;
+    width: max-content;
+    padding: 5px;
+    text-align: center;
+    background-color: black;
+    color: antiquewhite;
+}
+.state{
+    border: solid 5px  rgb(123, 228, 123);
+    margin: 2px;
+    color: rgb(240, 13, 13);
+}
