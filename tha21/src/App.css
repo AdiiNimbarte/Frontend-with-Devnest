@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(4, 11, 73);
+}
+
+.App-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+ header {
+ background-color: rgb(255, 246, 118);
+  color: #000;
+  width: 30%;
+  text-align: center;
+  height: 10vh;
+  font-size: 4vh;
+  padding: 1.5vh;
+  border-radius: 2vh;
+  box-shadow: inset 0 0 5px 0 rgb(1, 80, 36);
+} 
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 20px;
+}
+
+.input-wrapper {
+  text-align: center;
+  position: relative;
+  display: flex;
+  padding: 25px;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 3px 3px 3px rgb(255, 236, 236);
+  border-radius: 5vh;
+}
+
+#food-wrapper,#calorie-wrapper {
+  font-size: 30px;
+  min-width: 45%;
+  height: 8vh;
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 0 5px 0 rgb(0, 0, 0);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+
+#btn-submit {
+  background-color: white;  
+  width: 20vw;
+  height: 8vh;
+  border-radius: 2vw;
+  font-size: 25px;
+  color: rgb(22, 4, 43);
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 0 5px 0 black;
+  padding-top: 2px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#btn-submit:active {
+  transform: scale(0.95);
+  transition: 0.1s;
+}
+
+.food-list-container {
+  margin-top: 25px;
+  width: 100%;
+  height: 50vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.food-list-container::-webkit-scrollbar {
+  display: none;
+}
+
+.food-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 10vh;
+  padding: 15px;
+  font-size: 20px;
+  box-shadow: 0 0 2px 0 rgb(241, 241, 241);
+  border-radius: 5px;
+  align-items: center;
+}
+
+.food-wrapper > input {
+  font-size: 20px;
+  width: 35%;
+  height: 50px;
+  outline: 0;
+  border: 0;
+  padding: 0 0 1px 5px;
+  background-color: inherit;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.btn-modify {
+  min-width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#btn-edit-food {
+  background-color: blue;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 0 5px 0 black;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#btn-edit-food:active {
+  transform: scale(0.95);
+  transition: 0.1s;
+}
+
+#btn-delete-food {
+  background-color: red;
+  width: 40%;
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+  outline: 0;
+  border: 0;
+  box-shadow: inset 0 0 5px 0 black;
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#btn-delete-food:active {
+  transform: scale(0.95);
+  transition: 0.1s;
+}
+
+.no-items {
+  margin: 50px;
+  font-size: 30px;
+  color: rgb(199, 253, 255);
+  text-align: center;
+}
