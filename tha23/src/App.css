@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(29, 56, 4);
+}
+h1{
+  color: rgb(125, 127, 129);
+  font-size: 50px;
+  margin-left: 50px;
+}
+button{
+  background-color: rgb(138, 177, 216);;
+  margin-top: 20px;
+  font-size: 24px;
+  height: 70px;
+  width: 150px;
+  cursor: grab;
+  border-radius: 10px;
+}
+.App{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
