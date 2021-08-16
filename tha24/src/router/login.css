@@ -1,0 +1,75 @@
+
+
+.assemble
+{
+    width:100vw;
+    height:10vh;
+    background-color: rgb(110, 105, 106);
+    color: beige;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+
+.assemble a{
+    font-size: 1.5rem;
+    text-decoration: none;
+   color:rgb(247, 235, 235);
+    font-weight:500;
+}
+.assemble :hover{
+    padding: 2%;
+background-color: rgb(66, 64, 64);
+}
+.assemble  :active{
+    background-color: green;
+}
+.about{
+    color: rgb(1, 2, 2);
+    height: 100vh;
+    text-align: center;
+    padding: 20%;
+    background-color: rgb(197, 194, 194);
+}
+
+.home{
+    height: 100vh;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 17px;
+    text-align: center;
+    padding: 20%;
+    background-color: rgb(197, 194, 194);
+    
+}
+.dashboard{
+    font-family: Verdana;
+    font-size: 17px;
+    height: 100vh;
+    text-align: center;
+    padding: 20%;
+    background-color: rgb(197, 194, 194);
+}
+.profile{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 15px;
+    height: 100vh;
+    text-align: center;
+    padding: 20%;
+    background-color: rgb(197, 194, 194);
+}
+.home h1{
+    padding: 10px;
+}
+.home h2{
+    padding: 25px;
+}
+.home button{
+    height: 50px;
+    width:150px;
+    color: rgb(8, 7, 7);
+    cursor: pointer;
+    font-weight: 900;
+    font-size: 20px;
+}
