@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App {
+    height: 100vh;
+    width:100vw;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-image: linear-gradient(60deg, #64b3f4 0%, #c2e59c 100%);
+}
+.form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vw;
+}
+.form button {
+  margin: 0px 10px;
+}
+.form input {
+    background-color: rgb(207, 209, 209);
+    border-radius: 10px;
+    border: solid 3px rgb(173, 171, 171);
+    outline: currentColor;
+  padding: 0px 10px;
+}
+input:hover{
+    background-color: white
+}
+.header{
+  padding: 0.7rem;
+  width:fit-content;
+  font-size:2rem;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 5vh;
+  background-color: rgb(228, 215, 235);
+  
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
+}
+.weather{
+    text-align: center;
+}
+
+.card {
+  border-radius: 10px;
+ 
+  color: white;
+  background-color: rgb(47, 72, 83);
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+    width: 50vh;
+    height:fit-content;
+    margin: auto;
+    margin-top: 5vh;
+}
+.card img{
+    width:30%;
+    margin-top: 20px;
+}
+.card .place{
+    font-size: 1.2rem;
+    font-weight: 500;
+    opacity: 0.8;
+    margin:10px 0;
+}
+.card .temp{
+    font-size: 4rem;
+    font-weight: 500;
+    margin-left: 30.39px;
+}
+.card .desc{
+    font-size: 0.8rem;
+}
+.whp{
+    margin:20px 0;
+}
+.whp .title{font-size: 0.8rem;}
+.whp .data{font-size: 1.5rem;
+font-weight: 500;}
+.whp .unit{font-size: 0.8rem;}
